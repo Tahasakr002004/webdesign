@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang = "de">
+  <head>
+    <meta charset= "utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title> Leistungen</title>
+    <!-- Favicons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./src/favicons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./src/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./src/favicons/favicon-16x16.png">
+      <link rel="manifest" href="./src/favicons/site.webmanifest">
+      <link rel="mask-icon" href="./src/favicons/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="shortcut icon" href="./src/favicons/favicon.ico">
+      <meta name="msapplication-TileColor" content="#ffc40d">
+      <meta name="msapplication-config" content="./src/favicons/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+
+    <!-- GOOGLE-Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway&display=swap" rel="stylesheet">
+
+      <!-- Autoren-Style-Sheet -->
+      <link rel="stylesheet"  type= "text/css" href ="src/css/styles.css">
+  </head>
+
+
+  <body>
+    <!-- ======Navigationsleiste======0 -->
+    <!-- Navigationsliste mit Grid-System -->
+    <nav id="header-nav">
+
+      <div class="container" id="desktop-nav">
+
+           <div class="row">
+                   <div class="col-6">
+                         <a href="index.html" class="logo-link">
+                              <img src="src\img\webdesign-logo.png" alt=" Das Logo von WebDesign made simple">
+                         </a>
+                         <!-- lu>li*4>a -->
+                         <!-- Das wird vertical aber wir wollen horizontal , machen wir in css mit liststylen und linkstylen -->
+                         <ul class="Right-nav">
+                           <li><a href="index.html">Startseite</a></li>
+                              <!-- <li ><a href="index.html"><div class="st">Startseite</div></a></li> -->
+                              <li class="active_Desktop"><a href="leistungen.html"><div class="st_Desktop">Leistungen</div></a></li>
+                              <li><a href="kontakt.html">Kontakt</a></li>
+                              <li><a href="impressum.html">Impressum</a></li>
+                         </ul>
+
+                   </div>
+           </div>
+     </div>
+     <!-- ======================================================================================================================= -->
+     <div class="container" id="mobile-nav">
+           <div class="row">
+                   <div class="col-6">
+                         <a href="index.html" class="logo-link">
+                              <img src="src\img\webdesign-logo.png" alt=" Das Logo von WebDesign made simple">
+                         </a>
+                         <div class="clearFix" id="mobile-nav-dropdown">
+                                 <!-- hier stellen wir mobile button , humburger-icon/ entity  von htmlentity hamburger with unicode-->
+                                     <div id="mobile-nav-button">
+                                         <span>&equiv; </span>
+                                     </div>
+
+                              <div class="clearFix" id="mobile-nav-content">
+                                     <!-- lu>li*4>a -->
+                                     <!-- Das wird vertical aber wir wollen horizontal , machen wir in css mit liststylen und linkstylen -->
+                                       <ul>
+                                         <li ><a href="index.html"><div class="st">Startseite</div></a></li>
+                                            <hr>
+                                            <li class="active"><a href="leistungen.html"><div class="st">Leistungen</div></a></li>
+                                              <hr>
+                                            <li><a href="kontakt.html">Kontakt</a></li>
+                                              <hr>
+                                            <li><a href="impressum.html">Impressum</a></li>
+                                       </ul>
+
+                             </div>
+
+
+
+                         </div>
+
+
+
+                   </div>
+           </div>
+     </div>
+
+
+<!-- hier ist alte nav -->
+   </nav>
+   <header id="header-banner-klein"></header>
+   <!-- =================================================================================================================================== -->
+   <!-- ======================================LEISTUNGEN-SEITE============================================================================ -->
+   <section class="leistungen-seite-section" id="LEISTUNG1">
+     <div class="leistungen-seite-flex-container">
+
+          <header class="intro-container" id="Intro-Cont">
+            <h1 class="leistungs-box-head">Leistung #1</h1>
+            <p id ="Parag" >
+                 Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                 Excepteur sint occaecat cupidatat non proident.
+            </p>
+          </header>
+    </div>
+       <div class="leistungen-seite-flex-container">
+               <article class="leistungen-seite-box" id="basic">
+                  <h1>Basic</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                  </p>
+                  <ul>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                  </ul>
+                  <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+               </article>
+               <article class="leistungen-seite-box" id="advanced">
+                 <h1>Advanced</h1>
+                 <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, Lorem ipsum dolor sit amet,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudsed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                 </p>
+                 <ul>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                 </ul>
+                 <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+               </article>
+
+               <article class="leistungen-seite-box" id="professional">
+                 <h1>Professional</h1>
+                 <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                 </p>
+                 <ul>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                   <li> Lorem ipsum dolor sit amet.</li>
+                 </ul>
+                 <button type="button" class= "leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+               </article>
+        </div>
+
+    </section>
+
+
+    <!--2 ================= -->
+    <section class="leistungen-seite-section" id="LEISTUNG2">
+      <div class="leistungen-seite-flex-container">
+
+           <header class="intro-container" id="Intro-Cont">
+             <h1 class="leistungs-box-head">Leistung #2</h1>
+             <p id ="Parag" >
+                  Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident.
+             </p>
+           </header>
+     </div>
+        <div class="leistungen-seite-flex-container">
+                <article class="leistungen-seite-box" id="basic">
+                   <h1>Basic</h1>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                   </p>
+                   <ul>
+                     <li> Lorem ipsum dolor sit amet.</li>
+                     <li> Lorem ipsum dolor sit amet.</li>
+                     <li> Lorem ipsum dolor sit amet.</li>
+                     <li> Lorem ipsum dolor sit amet.</li>
+                     <li> Lorem ipsum dolor sit amet.</li>
+                   </ul>
+                   <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+                </article>
+                <article class="leistungen-seite-box" id="advanced">
+                  <h1>Advanced</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, Lorem ipsum dolor sit amet,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudsed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                  </p>
+                  <ul>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                  </ul>
+                  <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+                </article>
+
+                <article class="leistungen-seite-box" id="professional">
+                  <h1>Professional</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                  </p>
+                  <ul>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                    <li> Lorem ipsum dolor sit amet.</li>
+                  </ul>
+                  <button type="button" class= "leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+                </article>
+         </div>
+
+     </section>
+<!-- 3====================== -->
+<section class="leistungen-seite-section" id="LEISTUNG3">
+  <div class="leistungen-seite-flex-container">
+
+       <header class="intro-container" id="Intro-Cont">
+         <h1 class="leistungs-box-head">Leistung #3</h1>
+         <p id ="Parag" >
+              Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident.
+         </p>
+       </header>
+ </div>
+    <div class="leistungen-seite-flex-container">
+            <article class="leistungen-seite-box" id="basic">
+               <h1>Basic</h1>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+               </p>
+               <ul>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+               </ul>
+               <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+            </article>
+            <article class="leistungen-seite-box" id="advanced">
+              <h1>Advanced</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, Lorem ipsum dolor sit amet,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudsed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+              </p>
+              <ul>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+              </ul>
+              <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+            </article>
+
+            <article class="leistungen-seite-box" id="professional">
+              <h1>Professional</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+              </p>
+              <ul>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+              </ul>
+              <button type="button" class= "leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+            </article>
+     </div>
+
+ </section>
+<!--4 ====================== -->
+<section class="leistungen-seite-section" id="LEISTUNG4">
+  <div class="leistungen-seite-flex-container">
+
+       <header class="intro-container" id="Intro-Cont">
+         <h1 class="leistungs-box-head">Leistung #4</h1>
+         <p id ="Parag" >
+              Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident.
+         </p>
+       </header>
+ </div>
+    <div class="leistungen-seite-flex-container">
+            <article class="leistungen-seite-box" id="basic">
+               <h1>Basic</h1>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+               </p>
+               <ul>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+                 <li> Lorem ipsum dolor sit amet.</li>
+               </ul>
+               <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+            </article>
+            <article class="leistungen-seite-box" id="advanced">
+              <h1>Advanced</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, Lorem ipsum dolor sit amet,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudsed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+              </p>
+              <ul>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+              </ul>
+              <button type="button" class="leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+            </article>
+
+            <article class="leistungen-seite-box" id="professional">
+              <h1>Professional</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+              </p>
+              <ul>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+                <li> Lorem ipsum dolor sit amet.</li>
+              </ul>
+              <button type="button" class= "leistungen-seite-btn-auswaehlen"> Auswählen</button>
+
+            </article>
+     </div>
+
+ </section>
+   <!-- ============================================================================================================= -->
+   <!-- ========================================Footer========================================================= -->
+
+       <footer id="footer">
+
+           <div class="footer-container">
+                <div class="footer-row">
+                       <div class="footer-box-6">
+                         <span>WEBDESIGN made simple by @Taha Elsayed (2022)</span>
+                         <nav id="footer-nav">
+                           <a href="impressum.html">Impressum</a>
+                         </nav>
+                       </div>
+                </div>
+           </div>
+
+       </footer>
+       <!-- ============================================================================================================================================= -->
+
+       <script defer>document.addEventListener("touchstart", function(){} , true);</script>
+
+  </body>
+
+
+
+</html>
