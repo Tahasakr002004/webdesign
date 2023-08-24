@@ -1,0 +1,24 @@
+{
+  "name": "web_design",
+  "version": "1.0.0",
+  "description": "full responsive website called web-design",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tahasakr002004/WEB_DESIGN.git"
+  },
+  "keywords": [],
+  "author": "Taha Elsayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tahasakr002004/WEB_DESIGN/issues"
+  },
+  "homepage": "https://github.com/Tahasakr002004/WEB_DESIGN#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
